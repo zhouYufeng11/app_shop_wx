@@ -1,0 +1,28 @@
+/* components/common-header/common-header.wxss */
+.header {
+  position: relative;
+  padding-bottom: 148rpx;
+  /* background-color: #fff; */
+}
+
+.header-bg {
+  height: 240rpx;
+  background-color: #ff5777;
+  border-bottom-left-radius: 120rpx 40rpx; 
+  border-bottom-right-radius: 120rpx 40rpx; 
+}
+
+.header-container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: 20rpx;
+  background: #fff;
+  background-color: #fff; 
+  border-radius: 16rpx;
+  overflow: hidden;
+  /* 下面两行做圆角兼容 */
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+}

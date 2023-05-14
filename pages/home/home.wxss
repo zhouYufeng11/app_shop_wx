@@ -1,0 +1,7 @@
+/* pages/home/home.wxss */
+
+.banner {
+  height: 0px;
+  padding-bottom: 356rpx;
+  background-color: #ddd;
+}

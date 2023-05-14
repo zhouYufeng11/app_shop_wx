@@ -1,0 +1,14 @@
+/**app.wxss**/
+page {
+  background-color: #efefef;
+  color: #5c5c5c;
+}
+
+image {
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  padding: 0 32rpx;
+} 
